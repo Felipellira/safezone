@@ -9,7 +9,7 @@ Citizen.CreateThread(function()
     end
 end)
 
-function AddSafezoneProperties(zone,blockers)
+local function AddSafezoneProperties(zone,blockers)
     zone:onPlayerInOut(function(isPointInside,point)
         currentBlockers = blockers
         isInsideZone = isPointInside
