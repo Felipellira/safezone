@@ -12,8 +12,8 @@ this is a simple script to speed up and facilitate the creation of safezones usi
 
 ```lua
         [1] = {
-            ["Coords"] = {vector2(0,0,0),vector2(0,0,0),vector2(0,0,0)}, --- PolyZone coords
-            ["Options"] = {name= "teste", debugPoly = true}, -- PolyZone Config
+            ["Coords"] = {vector2(0,0),vector2(0,0),vector2(0,0)}, --- PolyZone coords
+            ["Options"] = {name= "test", debugPoly = true}, -- PolyZone Config
             ["Blockers"] = { Sprint = true, Drive = true } -- Blockers
         }
 ```
